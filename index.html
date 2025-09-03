@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./Katalina.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Maia Amaya</h1>
+            <p class="profile-summary">
+                Bachiller graduada del CASD Jose Prudencio Padilla con diploma de Bachiller Técnico Administrativa, capaz de archivar de manera eficiente archivos y manejar softwares como Word, Excel y Power Point.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="akatalina21@gmail.com">akatalina21@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573229088158" target="_blank" rel="noopener noreferrer">+57 3229088158</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Bachiller | CASD Jose Prudencio Padilla</h4>
+                    <p>Bachiller | Año de Finalización: 2025</p>
+                </li>
+                <li>
+                    <h4>Bachiller Técnico Administrativa | SENA</h4>
+                    <p>Bachiller Técnico Administrativa | Año de Finalización: 2025</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Asistente administrativa | Oficina Contable Ramirez</h4>
+                    <p>Febrero 2020 - Diciembre 2020 <br>Descripción: Colaboré en atención al cliente, facturación, actualización de inventarios y apoyo en tareas administrativas diarias.</p>
+                </li>
+                <li>
+                    <h4>Practicante Tecnico Administrativa | CAFABA</h4>
+                    <p>Mayo 2023 - Octubre 2023 <br>Descripción: Realicé apoyo en la recepción de solicitudes ciudadanas, elaboración de oficios y manejo básico de Excel y Word para reportes.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Digitación y manejo de documentos</li>
+                    <li>Contabilidad básica</li>
+                    <li>Atención al cliente presencial y telefónica</li>
+                    <li>Manejo de inventarios</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Organización</li>
+                    <li>Comunicación Efectiva</li>
+                    <li>Adaptabilidad</li>
+                    <li>Servicio al cliente</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./Katalina.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.instagram.com/maiakatalina?utm_source=qr&igsh=eXJlN3V0NnN5MWRn" target="_blank" class="linktree-link"><strong>Instragram</strong></a>
+            <a href="https://www.facebook.com/share/1JPwNt1i1m/" target="_blank" class="linktree-link"><strong>Facebook</strong></a>
+            <a href="https://www.tiktok.com/@kata21_12?_t=ZS-8zDQqvH71Dm&_r=1" target="_blank" class="linktree-link"><strong>Tik Tok</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Elias Vance <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
